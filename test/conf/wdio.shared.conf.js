@@ -31,7 +31,6 @@ exports.config = {
                 // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
                 args: {
                     '--relaxed-security': true,
-                    '--allow-insecure': 'adb_shell',
                     '--log-timestamp': true
                     // For arguments see
                     // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service

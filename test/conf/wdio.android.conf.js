@@ -1,4 +1,3 @@
-let { join } = require(`path`);
 const { config } = require("./wdio.shared.conf");
 
 //
@@ -31,7 +30,7 @@ config.capabilities = [
     unicodeKeyboard: true,
     autoGrantPermissions: true,
     noReset: true,
-    app: '/Users/gromanas/WebstormProjects/ReactNativeSampleApp/android/app/build/outputs/apk/debug/app-debug.apk'
+    app: 'android/app/build/outputs/apk/debug/app-debug.apk'
   }
 ];
 
